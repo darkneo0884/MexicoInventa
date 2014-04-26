@@ -1,0 +1,200 @@
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    background: #ddd url(../img/bg1.jpg) no-repeat fixed;
+    font-weight: 300;
+    font-size: 18px;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align:left;
+	margin:0 auto;
+}
+
+
+#logo{
+	width:250px;
+	position:relative;
+	display:inline-block;
+}
+
+.marginheader{
+	margin-top:20px;
+}
+
+.paddingimages{
+	
+	padding-left:20px;
+	
+}
+
+img{max-width:100%;}
+
+.maincontainer{
+	margin: 0 auto;
+	text-align:left;
+	width:61%;
+
+	
+	
+	  /* Styles */
+    box-shadow: 
+        0 0 1px rgba(0, 0, 0, 0.3), 
+        0 3px 7px rgba(0, 0, 0, 0.3), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+	border-radius: 5px;
+	background: -moz-linear-gradient(#eeefef, #ffffff 10%);
+    background: -ms-linear-gradient(#eeefef, #ffffff 10%);
+    background: -o-linear-gradient(#eeefef, #ffffff 10%);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#eeefef), color-stop(0.1, #ffffff));
+    background: -webkit-linear-gradient(#eeefef, #ffffff 10%);
+    background: linear-gradient(#eeefef, #ffffff 10%);
+}
+
+.topborder{
+	border-bottom-color: orange;
+    border-bottom-style:outset;
+    border-right-style: none;
+  	border-top-style: none;
+  	border-left-style: none;
+	
+}
+
+
+/****************Center*********************/
+
+
+#idea{
+	width:300px;
+	position:relative;
+	display:inline-block;
+	margin-left:10px;
+	margin-top:200px;
+	
+	
+	 /* Styles */
+    box-shadow: 
+        0 0 1px rgba(0, 0, 0, 0.3), 
+        0 3px 7px rgba(0, 0, 0, 0.3), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+	border-radius: 5px;
+	background: -moz-linear-gradient(#eeefef, #ffffff 10%);
+    background: -ms-linear-gradient(#eeefef, #ffffff 10%);
+    background: -o-linear-gradient(#eeefef, #ffffff 10%);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#eeefef), color-stop(0.1, #ffffff));
+    background: -webkit-linear-gradient(#eeefef, #ffffff 10%);
+    background: linear-gradient(#eeefef, #ffffff 10%);
+	
+	
+}
+
+#tablecentral{
+	font-size:18px;
+}
+
+
+
+/****************Parallax*****************/
+#first{
+	background:#000000 url(../img/Innovation.jpg) 50% 0 no-repeat fixed;
+	height: 600px;
+	width:61%;
+
+	
+	 /* Styles */
+    box-shadow: 
+        0 0 1px rgba(0, 0, 0, 0.3), 
+        0 3px 7px rgba(0, 0, 0, 0.3), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+	border-radius: 5px;
+	
+}
+
+
+#second{
+	background:#000000 url(../img/parallax4.jpg) 50% 0 no-repeat fixed;
+	width:61%;
+	height: 400px;
+	
+	
+	
+	 /* Styles */
+    box-shadow: 
+        0 0 1px rgba(0, 0, 0, 0.3), 
+        0 3px 7px rgba(0, 0, 0, 0.3), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+	border-radius: 5px;
+	
+}
+
+/*.story{
+	margin: 0 auto;
+	min-width: 61%;
+	width: 61%;
+}
+
+.story .float-left, .story .float-right{
+	padding: 140px 0 0 0;
+	position: relative;
+		
+}*/
+
+/*************video********************************/
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    width: 100%;
+    height: 50%;
+}
+
+.videocontainer{
+	margin: 0 auto;
+	text-align:left;
+	width:61%;
+	height:400px;
+	
+	
+	  /* Styles */
+    box-shadow: 
+        0 0 1px rgba(0, 0, 0, 0.3), 
+        0 3px 7px rgba(0, 0, 0, 0.3), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+	border-radius: 5px;
+	background: -moz-linear-gradient(#eeefef, #ffffff 10%);
+    background: -ms-linear-gradient(#eeefef, #ffffff 10%);
+    background: -o-linear-gradient(#eeefef, #ffffff 10%);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#eeefef), color-stop(0.1, #ffffff));
+    background: -webkit-linear-gradient(#eeefef, #ffffff 10%);
+    background: linear-gradient(#eeefef, #ffffff 10%);
+}
+
+/***************footer******************/
+
+#imgfooter{
+	width:40%;
+	margin-top: 35px;
+	position:relative;
+
+}
+
+#barfooter{
+	width:100%;
+	
+	margin-top: 45px;
+	position:relative;
+	
+}

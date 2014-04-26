@@ -1,0 +1,113 @@
+html, body {
+	height: 100%;
+}
+
+html {
+	background-image: url('../img/web1.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size:50%;
+		
+}
+
+body {
+	background-color: rgba(44,62,80 , 0.6 );
+	background-image: url('../img/pattern.png');
+	background-position: center;
+	background-repeat: repeat;
+	font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+.countdown-container {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+}
+
+.clock-item .inner {
+	height: 0px;
+	padding-bottom: 100%;
+	position: relative;	
+	width: 100%;
+}
+
+.clock-canvas {
+	background-color: rgba(255, 255, 255, .1);
+	border-radius: 50%;
+	height: 0px;
+	padding-bottom: 100%;
+}
+
+.text {
+	color: #fff;	
+	font-size: 30px;
+	font-weight: bold;	
+	margin-top: -50px;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	width: 100%;
+}
+
+.text .val {
+	font-size: 50px;
+}
+
+.text .type-time {
+	font-size: 20px;
+}
+
+.Legend{
+	z-index:999999;
+	font-size:24px;
+	color:#fff;
+	text-align:center;
+	margin: 35px 30px 30px 50px;
+}
+
+.Legend h1 {
+  font: bold 330%/100% "Lucida Grande";
+  position: relative;
+  color: #464646;
+}
+.Legend h1 span {
+  /*background: url(gradient.png) repeat-x;*/
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 31px;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.clock-item {
+		margin-bottom: 30px;		
+	}
+}
+
+@media (max-width: 767px) {
+	.clock-item {
+		margin: 0px 30px 30px 30px;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+	.clock-item {
+		margin-bottom: 30px;		
+	}
+	
+	.countdown-container {
+	position: relative;
+	top: %;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+}
+}

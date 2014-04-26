@@ -1,0 +1,326 @@
+/* esto funcionará si la resolución de pantalla está entre 300 y 800 pixeles de ancho */
+@media (max-width: 800px) and (min-width: 200px) {
+ body {
+     font-family: 'Lato', Calibri, Arial, sans-serif;
+
+    font-weight: 100;
+    font-size: 18px;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  	 text-align:left;
+	
+}
+ 
+ 
+ img{max-width:100%;}
+  font-size: 0.5em;
+  
+  
+	#underimg{ 
+	width:20%;
+	}
+
+
+
+.imgfooter{
+	width:60%;
+	margin-top: 15px;
+	position:relative;
+
+}
+
+
+.maincontainer{
+	margin: 0 auto;
+	text-align:left;
+	width:100%;
+	
+	
+	  /* Styles */
+    box-shadow: 
+        0 0 1px rgba(0, 0, 0, 0.3), 
+        0 3px 7px rgba(0, 0, 0, 0.3), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+	border-radius: 5px;
+	background: -moz-linear-gradient(#eeefef, #ffffff 10%);
+    background: -ms-linear-gradient(#eeefef, #ffffff 10%);
+    background: -o-linear-gradient(#eeefef, #ffffff 10%);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#eeefef), color-stop(0.1, #ffffff));
+    background: -webkit-linear-gradient(#eeefef, #ffffff 10%);
+    background: linear-gradient(#eeefef, #ffffff 10%);
+}
+
+#underconstruction{
+	margin: 0 auto;
+	margin-top:25px;
+	display:block;
+	width:200px;
+	height:100px;
+	
+}
+
+/*************center**********************/
+
+
+#tablecentral{
+	font-size:12px;
+	color: #B9B3B3;
+	margin-right:50px;
+	width:100%;
+}
+
+#tablecentral h1{
+	font-size:16px;
+	color: #FF9966;
+}
+
+/***********************video********************/
+.videocontainer{
+	margin: 0 auto;
+	text-align:left;
+	width:100%;
+	height:180px;
+	
+	
+	  /* Styles */
+    box-shadow: 
+        0 0 1px rgba(0, 0, 0, 0.3), 
+        0 3px 7px rgba(0, 0, 0, 0.3), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+	border-radius: 5px;
+	background: -moz-linear-gradient(#eeefef, #ffffff 10%);
+    background: -ms-linear-gradient(#eeefef, #ffffff 10%);
+    background: -o-linear-gradient(#eeefef, #ffffff 10%);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#eeefef), color-stop(0.1, #ffffff));
+    background: -webkit-linear-gradient(#eeefef, #ffffff 10%);
+    background: linear-gradient(#eeefef, #ffffff 10%);
+}
+
+/****************Parallax*****************/
+#first{
+	background:#000000 url(../img/parallax4.jpg) 50% 0 no-repeat fixed;
+	background-size:100% 75%;
+	color: white;
+	width:100%;
+	overflow: hidden;
+	padding: 0;
+	
+}
+
+
+#second{
+	background:#000000 url(../img/Innovation.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	width:100%;
+	overflow: hidden;
+	padding: 0;
+	
+	
+	 /* Styles */
+    box-shadow: 
+        0 0 1px rgba(0, 0, 0, 0.3), 
+        0 3px 7px rgba(0, 0, 0, 0.3), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+	border-radius: 5px;
+	
+}
+
+.story{
+	margin: 0 auto;
+	min-width: 100%;
+	overflow: auto;
+	width: 100%;
+}
+
+.story .float-left, .story .float-right{
+	padding: 140px 0 0 0;
+	position: relative;
+		
+}
+
+/**************Dialog box****************/
+
+
+.section {
+  margin:0px;
+  bottom:0px;
+  width:1600px;
+  float:left;
+ 
+  text-align:center;
+}
+
+#section2{
+	display:none;
+	
+}
+
+#section3{
+	display:none;
+	
+}
+
+.login-form, .signup-form, .forgot-pwd {
+  background:#fff;
+  /*border-radius: 4px;*/
+  padding:30px;
+  text-align:center;
+  font-size:14px;
+  
+  /*float:left;*/
+  /*margin:5em 40em;*/
+ margin: 0 auto;
+  
+   /* Styles */
+    box-shadow: 
+        0 0 1px rgba(0, 0, 0, 0.3), 
+        0 3px 7px rgba(0, 0, 0, 0.3), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+	border-radius: 5px;
+	background: -moz-linear-gradient(#eeefef, #ffffff 10%);
+    background: -ms-linear-gradient(#eeefef, #ffffff 10%);
+    background: -o-linear-gradient(#eeefef, #ffffff 10%);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#eeefef), color-stop(0.1, #ffffff));
+    background: -webkit-linear-gradient(#eeefef, #ffffff 10%);
+    background: linear-gradient(#eeefef, #ffffff 10%);
+  
+  
+  
+  
+}
+
+.encabezado{
+	font-size:20px;	
+}
+
+
+
+
+.login-form, .forgot-pwd {
+  width:400px;
+}
+
+.signup-form {
+  width:400px;
+}
+
+.form-wrapper-01 {
+  margin: 0;
+  padding: 10px 0;
+}
+.form-wrapper-01 .inputbox {
+  border: 1px solid #eaedf2;
+  border-radius:3px;
+  height: 40px;
+  padding: 10px 0 10px 32px;
+  width: 60%;
+  outline:none;
+  margin-bottom:10px;
+  font-family: inherit;
+}
+.login-form .form-wrapper-01 .inputbox {
+  width:65%;
+}
+.form-wrapper-01 .name {
+  background:#eaedf2 url(../img/user.png) 10px 13px no-repeat;
+}
+.form-wrapper-01 .email {
+  background:#eaedf2 url(../img/email.png) 10px 15px no-repeat;
+}
+.form-wrapper-01 .password {
+  background:#eaedf2 url(../img/password.png) 10px 10px no-repeat;
+}
+.form-wrapper-01 a.button {
+  background: none repeat scroll 0 0 #14B9D5;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+.form-wrapper-01 .button:hover {
+  background:#0e778a;
+}
+.form-wrapper-01 a.button > i {
+  font-size:20px;
+}
+
+/*Social Button Styling*/
+.social {
+  margin: 10px 0 10px;
+}
+.social a {
+  color:#fff;
+  text-decoration:none;
+  font-weight:bold;
+  border-radius: 4px 4px 4px 4px;
+  padding:20px 0;
+  
+  
+}
+.social a.facebook {
+  background:#3b5998;
+}
+.social a.facebook:hover {
+  background:#37528c;
+}
+.social .twitter {
+  background:#1daee3;
+  margin: 0 26px;
+  
+}
+.social .twitter:hover {
+  background:#1ca4d6;
+}
+.social .google {
+  background:#d34836;
+}
+.social .google:hover {
+  background:#c74534;
+}
+.social .facebook > i, .social .twitter > i, .social .google > i {
+  border-radius: 4px 0 0 4px;
+  bottom: 3px;
+  font-size: 38px;
+  padding: 10px 14px;
+  position: relative;
+  vertical-align: middle;
+  clear: both;
+  
+}
+.social .facebook > span, .social .twitter > span, .social .google > span {
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  padding:24px 20px 24px 0;
+}
+
+.btnclose{
+	display: block;
+	float:right;
+	margin-top: -30px;
+	margin-right:5px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
