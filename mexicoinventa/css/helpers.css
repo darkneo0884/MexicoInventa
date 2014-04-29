@@ -64,7 +64,7 @@ img{max-width:100%;}
 	text-align:left;
 	margin-top:-30px;
 	margin-bottom:10px;
-	width:80%;
+	width:100%;
 	height:65px;
 	overflow:hidden;
 	color:#000;
@@ -76,7 +76,7 @@ img{max-width:100%;}
         inset 0 -3px 2px rgba(0,0,0,0.25);
 	border-radius: 5px;
 	
-	background: -webkit-linear-gradient(left, #414141, silver); /* For Safari 5.1 to 6.0 */
+background: -webkit-linear-gradient(left, #414141, silver); /* For Safari 5.1 to 6.0 */
 background: -o-linear-gradient(right, silver, #414141); /* For Opera 11.1 to 12.0 */
 background: -moz-linear-gradient(right, silver, #414141); /* For Firefox 3.6 to 15 */
 background: linear-gradient(to right, silver , #414141); /* Standard syntax (must be last) */
@@ -85,12 +85,12 @@ background: linear-gradient(to right, silver , #414141); /* Standard syntax (mus
 /****************Center*********************/
 #ctnRegistro{
 	
-	margin-left:230px;
-	font-size:20px;
+	margin-left:100px;
+	font-size:16px;
 	color: gray;
 	float:left;
-	width:700px;
-	height:686px;
+	width:550px;
+	height:554px;
 	padding: 0px 20px 0px 20px;
 	  /* Styles */
    /* box-shadow: 
@@ -128,10 +128,10 @@ opacity:.90;
 #ctnMision{
 	
 	margin-left:45px;
-		font-size:20px;
+	font-size:16px;
 	color: gray;
 	float:left;
-	width:700px;
+	width:550px;
 	padding: 0px 20px 0px 20px;
 	  /* Styles */
    /* box-shadow: 
@@ -254,10 +254,10 @@ opacity:.70;
     position: relative; 
     overflow: hidden;
     margin:0 auto;
-    margin-left:230px;
+  /* margin-left:230px;*/
 	margin-top: 15px;
-    height:400px;
-    width:76%;
+    height:300px;
+    width:99%;
     text-align:center;
     
      /* Styles */
@@ -275,7 +275,7 @@ opacity:.70;
 .video-container embed {
     position: relative;
     width: 100%;
-    height:400px;
+    height:300px;
     
      /* Styles */
 	border-radius: 7px;
@@ -309,7 +309,7 @@ opacity:.70;
 .footer{
 	margin: 0 auto;
 	text-align:left;
-	width:80%;
+	width:100%;
 	overflow:hidden;
 	margin-top: 15px;
 	color:#000;
@@ -447,6 +447,25 @@ opacity:.90;
 .form-wrapper-01 a.button > i {
   font-size:20px;
 }
+
+.form-wrapper-01 .button {
+  background: none repeat scroll 0 0 #14B9D5;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+.form-wrapper-01 .button:hover {
+  background:#0e778a;
+}
+.form-wrapper-01 .button > i {
+  font-size:20px;
+}
+
 
 /*Social Button Styling*/
 .social {
